@@ -2,8 +2,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2
 
 local Window = MakeWindow({
     Hub = {
-        Title = "Soliar hub by Minh [beta gen1]",
-        Animation = "đang lên chờ tí"
+        Title = "Soliar hub by Minh [beta]",
+        Animation = "đang lên đợi tí"
     },
     Key = {
         KeySystem = true,
@@ -14,14 +14,14 @@ local Window = MakeWindow({
         Notifi = {
             Notifications = true,
             CorrectKey = "Lên",
-            IncorrectKey = "Kh lên",
+            IncorrectKey = "Không lên",
             CopyKeyLink = "Đã sao chép"
         }
     }
 })
 
 MinimizeButton({
-    Image = "http://www.roblox.com/asset/?id=92120582532479889789",
+    Image = "http://www.roblox.com/asset/?id=9212058253247988999",
     Size = {60, 60},
     Color = Color3.fromRGB(10, 10, 10),
     Corner = true,
@@ -86,7 +86,7 @@ local Tab1o = MakeTab({Name = "người chơi"})
 local Tab2o = MakeTab({Name = "sever"})
 local Tab3o = MakeTab({Name = "linh tinh"})
 
-AddButton(Tab3o, {Name = "chịu", Callback = function() loadstring(game:HttpGet("https://pastefy.app/BrWwqpJS/raw"))() end})
+AddButton(Tab0o, {Name = "chịu", Callback = function() loadstring(game:HttpGet("https://pastefy.app/BrWwqpJS/raw"))() end})
 AddButton(Tab0o, {Name = "bất tử", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))() end})
 AddButton(Tab3o, {Name = "bất tử 99 đêm", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/DATABASE/refs/heads/main/99%20Nights%20in%20the%20Forest/Infinite%20Health.lua"))() end})
 AddButton(Tab0o, {Name = "inf yield", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))() end})
@@ -96,7 +96,7 @@ AddButton(Tab0o, {Name = "tốc độ và nhảy cao", Callback = function() loa
 AddButton(Tab0o, {Name = "sẽ gầy", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/4gh9/Bang-Script-Gui/main/bang%20gui.lua"))() end})
 AddButton(Tab2o, {Name = "hop sever", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Hopsever/refs/heads/main/categghop.txt"))() end})
 AddButton(Tab0o, {Name = "fling", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/K1LAS1K/Ultimate-Fling-GUI/main/flingscript.lua"))() end})
-AddButton(Tab0o, {Name = "vua cầu vồng", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Rainbow%20Banisher"))() end})
+AddButton(Tab3o, {Name = "vua cầu vồng", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Rainbow%20Banisher"))() end})
 AddButton(Tab0o, {Name = "xe máy", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Motorcycle"))() end})
 AddButton(Tab0o, {Name = "quên tên", Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/pYMbRb7w"))() end})
 AddButton(Tab1o, {Name = "fly thịnh", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/Flythinh/refs/heads/main/Flythinhv1.lua"))() end})
@@ -110,9 +110,49 @@ AddButton(Tab1o, {Name = "fly v3", Callback = function() loadstring(game:HttpGet
 AddButton(Tab1o, {Name = "Esp", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP"))() end})
 AddButton(Tab1o, {Name = "dịch chuyển đến người chơi", Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/AbDM2er1"))() end})
 AddButton(Tab1o, {Name = "click to tp", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/lucphuong/Bloxfruit/refs/heads/main/Clicktp.lua"))() end})
-AddButton(Tab2o, {Name = "chống afk", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))() end})
+AddButton(Tab2o, {Name = "chống afk", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind"))() end})
 AddButton(Tab2o, {Name = "rejoin sever", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/lucphuong/Bloxfruit/refs/heads/main/Rejoinsever.lua"))() end})
 AddButton(Tab2o, {Name = "Tạo sever vip", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenithExility/ZenikazeHub/refs/heads/main/ZenikazeV3.1"))() end})
 AddButton(Tab3o, {Name = "khóa", Callback = function() loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Mobile-Shiftlock-12348"))() end})
 AddButton(Tab3o, {Name = "quay ngược thời gian", Callback = function() loadstring(game:HttpGet("https://mscripts.vercel.app/scfiles/reverse-script.lua"))() end})
 AddButton(Tab3o, {Name = "Tàng hình", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-FE-19153"))() end})
+
+AddButton(Tab0o, {
+    Name = "F3x",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Roxploit-v6-f3x-reel-50002"))()
+    end
+})
+
+-- NEW: FE Gun R15 (Tab main)
+--[[
+FE gun by MyWorld
+accessory ids (choose one u like):
+14353953259 --sniper
+14411367823 --blaster
+14514449669 --blaster
+119189450852355 --crossbow
+13822189002 --black rocket launcher
+13822187745 --white rocket launcher
+the animations are R15 only, R6 not supported
+]]
+AddButton(Tab0o, {
+    Name = "Súng R15",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty34.lua"))()
+    end
+})
+
+AddButton(Tab0o, {
+    Name = "Súng R6",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47"))()
+    end
+})
+
+AddButton(Tab3o, {
+    Name = "Sword",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/Script/refs/heads/main/Sword%20Script"))()
+    end
+})
