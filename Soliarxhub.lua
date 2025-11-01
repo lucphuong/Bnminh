@@ -52,6 +52,7 @@ frame.Parent = screenGui
 
 local textLabel = Instance.new("TextLabel")
 textLabel.Size = UDim2.new(1, 0, 1, 0)
+textLabel.Position = UDim2.new(0, 0, 0, 0)
 textLabel.Font = Enum.Font.FredokaOne
 textLabel.TextScaled = true
 textLabel.BackgroundTransparency = 1
@@ -71,7 +72,7 @@ end)
 local frameCount = 0
 local lastUpdate = tick()
 RunService.RenderStepped:Connect(function()
-    frameCount += 1
+    frameCount = frameCount + 1
     local now = tick()
     if now - lastUpdate >= 1 then
         local fps = math.floor(frameCount / (now - lastUpdate))
@@ -124,6 +125,7 @@ AddButton(Tab0o, {
     end
 })
 
+--[[
 FE gun by MyWorld
 accessory ids (choose one u like):
 14353953259 --sniper
