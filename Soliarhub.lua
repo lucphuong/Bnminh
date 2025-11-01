@@ -9,12 +9,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "Key",
         Description = "",
-        KeyLink = " https://link4sub.com/uLyo",
+        KeyLink = "https://link4sub.com/uLyo",
         Keys = {"Minhdz"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Lên",
-       Incorrectkey = "Không lên",
+       IncorrectKey = "Không lên",
        CopyKeyLink = "Đã sao chép"
       }
     }
@@ -88,7 +88,7 @@ end)
      
 ------- BUTTON
     
-    AddBuAddButto0o, {
+    AddButton0o, {
      Name = "vua cầu vồng",
     Callback = function()
 	  loadstring(game:HttpGet("https://pastefy.app/BrWwqpJS/raw"))()
@@ -126,7 +126,7 @@ end)
   AddButton(Tab0o, {
      Name = "tốc độ",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/MrScripterrFr/Speed-Changer/main/Speed%20Changer"))();
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/MrScripterrFr/Speed-Changer/main/Speed%20Changer"))()
   end
   })
   
