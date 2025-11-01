@@ -2,7 +2,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2
 
 local Window = MakeWindow({
     Hub = {
-        Title = "Soliar hub [beta gen1]",
+        Title = "Soliar hub by Minh [beta gen1]",
         Animation = "đang lên"
     },
     Key = {
