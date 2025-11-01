@@ -2,7 +2,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2
 
 local Window = MakeWindow({
     Hub = {
-        Title = "Soliar hub",
+        Title = "Soliar hub [beta gen1]",
         Animation = "đang lên"
     },
     Key = {
@@ -21,7 +21,7 @@ local Window = MakeWindow({
 })
 
 MinimizeButton({
-    Image = "http://www.roblox.com/asset/?id=9212058253247988",
+    Image = "http://www.roblox.com/asset/?id=92120582532479889789",
     Size = {60, 60},
     Color = Color3.fromRGB(10, 10, 10),
     Corner = true,
