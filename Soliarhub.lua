@@ -3,7 +3,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2
 local Window = MakeWindow({
     Hub = {
         Title = "Soliar hub by Minh [beta gen1]",
-        Animation = "đang lên"
+        Animation = "đang lên chờ tí"
     },
     Key = {
         KeySystem = true,
@@ -14,7 +14,7 @@ local Window = MakeWindow({
         Notifi = {
             Notifications = true,
             CorrectKey = "Lên",
-            IncorrectKey = "Không lên",
+            IncorrectKey = "Kh lên",
             CopyKeyLink = "Đã sao chép"
         }
     }
